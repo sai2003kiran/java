@@ -1,0 +1,10 @@
+class PlantPots{
+ public static void main(String rectangularPlantsBags[]){
+  System.out.println("--> About this item <--");
+  System.out.println("-->Product Details - Premium 3Lx1.5Wx1H Feet Rectangular 360 GSM HDPE Grow Bag With PVC Pipes Support. Grow bag Dimension is 36 INCH Length x 18 INCH Width x 12 INCH Height in these grow bags you can put 4.5 cubic feet soil mix.");
+  System.out.println("-->Suitable Plant - This rectangular raised grow bag is perfect for a variety of plants, including Vegetables Tomatoes, Brinjal, Bell Peppers, Okra, Corn, Potatoes, Onions, Ginger, Radishes, Carrots, Beetroots, Turnips, Spinach, Fenugreek, Collard Greens, Green Amaranth, Coriander, Arugula, Pak Choi, Brussels Sprouts Legumes Lobia, Peas, Cluster Beans, French Beans Herbs Aloe Vera, Oregano, Basil, Thyme, Lavender, Rosemary Fruits Strawberries, Melons, Grapes, Pineapples, Mulberries");
+  System.out.println("-->Strong Grip Stitching with 20/20 Number Polyester Thread: The stitching of our grow bags is done using a robust 20/20 number polyester thread. This thread offers a strong grip stitch that holds the fabric together firmly, even when the grow bags are filled with soil and plants. The reinforced stitching ensures that the grow bags maintain their shape and structural integrity over time.");
+  System.out.println("-->Efficient Water Drainage System: We understand the importance of proper water drainage for healthy plant growth. That's why our grow bags feature a 1mm mesh with 15mm eyelets, specifically designed to allow excess water to drain out effectively. This drainage system prevents the soil from becoming waterlogged and ensures that the plants receive optimal moisture levels, promoting their overall health.");
+  System.out.println("-->Shape and Structure: A rectangular grow bag, without a frame, may lack the necessary structure to hold its shape when filled with soil and plants. The frame helps maintain the bag's rectangular form, preventing it from collapsing or losing its defined shape. This ensures that the grow bag provides a stable and organised growing environment for your plants.");
+ }
+}

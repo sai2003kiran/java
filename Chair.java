@@ -1,0 +1,11 @@
+class Chair{
+ public static void main(String plastic[]){
+   System.out.println("About this item");
+   System.out.println("Premium Ergonomic Design for Superior Comfort: The Ergo Mesh chair’s advanced ergonomic structure and integrated lumbar support help maintain a healthy spine alignment, reducing back and neck pain for long hours of sitting.");
+   System.out.println("Breathable Mesh Backrest for Maximum Airflow: What makes it one of the best office chairs for work is that with it, you can stay cool and dry with the chair’s mesh fabric backrest. Designed to enhance airflow and prevent heat or sweat buildup, it’s perfect for warmer climates or extended use.");
+   System.out.println("12-Position Adjustable Headrest & Armrests: Customize your seating experience with a headrest that adjusts in 12 positions and an adjustable armrest to relieve neck, shoulder, and arm strain, promoting better posture and comfort.");
+   System.out.println("Durable & Sleek Design: Built with a sturdy 350mm nylon base and available in stylish full black or full grey, this chair combines strength with modern aesthetics, making it the perfect addition to any office, conference room, or as office chairs for home.");
+   System.out.println("Patented SmartGRID Technology: Our Orthopedic ergonomic chair seat is created using Patented SmartGRID Technology (As per Indian patent no. 345890). It supports your tailbone and adds extra padding to your tushy for those long working hours. No Pressure Support of this SmartGRID office chair helps your spine stay in its natural position and makes you feel weightless. Moreover, the computer chair has multiple air channels to keep your seat and back cool & comfortable");
+   System.out.println("Orthopedic Back Support: The backrest of the office chair is designed with a contoured shape with built-in SmartGRID technology to support your spine in its natural and healthy S shape. The Adjustable Lumbar support provides the necessary back support for extended periods of work, making it an ideal ergonomic chair for both home and office use");
+ }
+}
