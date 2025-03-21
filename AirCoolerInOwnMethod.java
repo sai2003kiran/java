@@ -1,12 +1,12 @@
-class AirCoolerInMain{
+class AirCoolerInOwnMethod{
  static String brand="Bajaj"; 
- static String colour="white";
+ static String colour="Bhite";
  static String features="Adjustable Speed, Portable";
  static String controlsType="Knob";
  static long FloorArea=200;
  static long price = 3578L;
-
- public static void main (String highSpeedFan[]){
+ 
+ public static void ac(){
  System.out.println(">>>>>>Before re-initialization<<<<<<");
  System.out.println("The AirCooler Brand is : "+brand);
  System.out.println("The AirCooler Colour is : "+colour);
@@ -27,5 +27,11 @@ class AirCoolerInMain{
  System.out.println("The AirCooler controlsType is : "+controlsType);
  System.out.println("The AirCooler FloorArea is : "+FloorArea+"Square Feet");
  System.out.println("The AirCooler price is : "+price+"rupees");
+ }
+
+ public static void main (String highSpeedFan[]){
+ System.out.println("main Started");
+ ac();
+ System.out.println("main ended");
  }
 }

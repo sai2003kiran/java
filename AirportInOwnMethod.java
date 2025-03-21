@@ -1,11 +1,17 @@
-class AirportInMain{
+class AirportInOwnMethod{
  static  long id = 432567; 
  static String  name = "Indica";
  static String location = "delhi";
  static int noOfTerminals = 14;
  static String type = "BusinessClass";
+ 
+ public static void main(String highSpeedFan[]){
+ System.out.println("main Started");
+ ap();
+ System.out.println("main ended");
+ }
 
- public static void main (String highSpeedFan[]){
+ public static void ap(){
  System.out.println(">>>>>>Before re-initialization<<<<<<");
  System.out.println("the plane id is : "+id);
  System.out.println("the plane name is : "+name);

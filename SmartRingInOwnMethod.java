@@ -1,4 +1,4 @@
-class SmartRingInMain{
+class SmartRingInOwnMethod{
  static long capacity=1L;
  static String colour="brown";
  static String features="Sleep Monitor,Lightweight,MultisportTracker,Accelerometer,Activity Tracker";
@@ -6,7 +6,13 @@ class SmartRingInMain{
  static long size=6;
  static long price = 35678L;
 
- public static void main (String fitnessTracker[]){
+public static void main (String fitnessTracker[]){
+ System.out.println("main Started");
+ ring();
+ System.out.println("main ended");
+}
+
+ public static void ring (){
  System.out.println(">>>>>>Before re-initialization<<<<<<");
  System.out.println("The Smart Ring Capacity is : "+capacity+"mb");
  System.out.println("The Smart Ring Colour is : "+colour);

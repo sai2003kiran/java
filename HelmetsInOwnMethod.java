@@ -1,4 +1,4 @@
-class HelmetsInMain{
+class HelmetsInOwnMethod{
   static String colour = "GlossyBlack";
   static String brand = "Steelbird";
   static String vehicleServiceType = "Bike";
@@ -6,6 +6,12 @@ class HelmetsInMain{
   static String material = "High Impact Resistant Thermoplastic shell";
 
  public static void main(String sbh34[]){
+ System.out.println("main Started");
+ helmet();
+ System.out.println("main ended");
+ }
+
+ public static void helmet(){
   System.out.println(">>>>>>Before re-initialization<<<<<<");	
   System.out.println("the Helmets Colour is : "+colour);
   System.out.println("the Helmets Brand is : "+brand);

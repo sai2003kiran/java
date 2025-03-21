@@ -1,10 +1,16 @@
-class BallInMain{
+class BallInOwnMethod{
  static String Brand = "FitBox Sports";
  static long weight = 50;
  static String material = "Blend";
  static String colour = "yellow";
  static String occasion = "playgroung";
- public static void main(String tennisGully[]){
+ 
+ public static void main (String tennisGully[]){
+ System.out.println("main Started");
+ ball();
+ System.out.println("main ended");
+ }
+ public static void ball(){
    System.out.println(">>>>>>Before re-initialization<<<<<<");	
  System.out.println("the tennisBall Brand is : "+Brand);
  System.out.println("the tennisBall gripSize is : "+weight);

@@ -1,11 +1,18 @@
-class WatchInMain{
+class WatchInOwnMethod{
   static long id = 1;
   static String brand = "Titan";
   static String colour = "black";
   static String shape  = "circle";
   static  String type = "wallclock";
   static boolean isWaterProof = true;
- public static void main(String accurrancy[]){
+  
+  public static void main(String accurrancy[]){
+  System.out.println("main started");
+  time();
+  System.out.println("main Ended");
+	}
+  
+  public static void time(){
   System.out.println(">>>>>>>>>>>>Before re-initialization<<<<<<<<<<<<<");
   System.out.println("The watch ID is : "+id);
   System.out.println("The watch Brand is : "+brand);

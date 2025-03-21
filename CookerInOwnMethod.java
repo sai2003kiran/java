@@ -1,4 +1,4 @@
-class CookerInMain{
+class CookerInOwnMethod{
  static String Brand = "Pigeon";
  static long capacity = 5L; 
  static String material = "Stainless steel";
@@ -8,6 +8,12 @@ class CookerInMain{
  static String product = "45D x 45W x 35H";
  
  public static void main(String pressure[]){
+ System.out.println("main Started");
+ cooker();
+ System.out.println("main ended");
+ }
+ 
+ public static void cooker(){
  System.out.println(">>>>>>before re-initialization<<<<<<");	
  System.out.println("the cooker's Brand is : "+Brand);
  System.out.println("the cooker's Capacity is : "+capacity);

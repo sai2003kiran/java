@@ -1,4 +1,4 @@
-class EarbudsInMain{
+class EarbudsInOwnMethod{
     static String Brand  =	"GM";
 	static String colour =	"Blue";
     static String earPlacement	= "Ear";
@@ -6,6 +6,12 @@ class EarbudsInMain{
     static String formFactor =	"Smooth";
 
  public static void main(String clearCalls[]){
+ System.out.println("main Started");
+ eb();
+ System.out.println("main ended");
+ }
+
+ public static void eb(){
     System.out.println(">>>>>>Before re-initialization<<<<<<");	
 	System.out.println("The earbuds Brand is : "+Brand);
 	System.out.println("The earbuds Colour is : "+colour);
