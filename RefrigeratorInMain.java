@@ -1,4 +1,4 @@
-class RefrigeratorInOwnMethod{
+class RefrigeratorInMain{
 	static String brand="IFB";
     static String colour="pink";
     static long capacity=197L;
@@ -7,13 +7,7 @@ class RefrigeratorInOwnMethod{
     static long price = 67000L;
     static double productDimensions = 127.8D;
 
-public static void main (String coolSingleDoor[]){
-  System.out.println("main started");
-  frigde();
-  System.out.println("main Ended");
-}
-
- public static void frigde(){
+ public static void main (String coolSingleDoor[]){
  System.out.println(">>>>>>>Before Re-intialization<<<<<<<<");
  System.out.println("The Refrigerator Brand is : "+brand);
  System.out.println("The Refrigerator Colour is : "+colour);

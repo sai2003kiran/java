@@ -1,14 +1,9 @@
-class PatientInOwnMethod{
+class PatientInMain{
  static int patientID=1;
  static  String patientName="baba";
  // will also run static char patientgender ='W'+'(';
  static char patientgender ='M';
-  public static  void main(String pat[]){
-  System.out.println("main Started");
-  person();
-  System.out.println("main ended");
-  }
- public static  void person(){
+ public static  void main(String pat[]){
  System.out.println(">>>>>>After re-initialization<<<<<<");	
  System.out.println("The patient ID is :"+patientID);
  System.out.println("the patient name is:"+patientName);

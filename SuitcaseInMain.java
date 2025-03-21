@@ -1,4 +1,4 @@
-class SuitcaseInOwnMethod{
+class SuitcaseInMain{
  static	String brand="American Tourister";
  static String colour="pink";
  static String material="Polypropylene";
@@ -7,15 +7,9 @@ class SuitcaseInOwnMethod{
  static long price = 20000L;
  static long spinnerWheels = 8L;
 
-
-public static void main (String Sp56Cm[]){
- System.out.println("main Started");
- suitcase();
- System.out.println("main ended");
-}
-
- public static void suitcase(){
+ public static void main (String Sp56Cm[]){
  System.out.println(">>>>>>Before re-initialization<<<<<<");
+ System.out.println(">>>>>>After re-initialization<<<<<<");
  System.out.println("The Suitacase Brand is : "+brand);
  System.out.println("The Suitacase Colour is : "+colour);
  System.out.println("The Suitacase Material is : "+material);
@@ -29,7 +23,7 @@ public static void main (String Sp56Cm[]){
  size="large";
  sidehandle="Flexible";
  price = 14563L;
- spinnerWheels = 4L;
+ spinnerWheels = 6L;
  System.out.println(">>>>>>After re-initialization<<<<<<");
  System.out.println("The Suitacase Brand is : "+brand);
  System.out.println("The Suitacase Colour is : "+colour);

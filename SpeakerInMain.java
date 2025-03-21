@@ -1,4 +1,4 @@
-class SpeakerInOwnMethod{
+class SpeakerInMain{
  static String brand="boAt";
  static String colour="green";
  static String mountingType="Wall";
@@ -7,13 +7,7 @@ class SpeakerInOwnMethod{
  static  long audioOutputResult=5;
  static long price = 5678L;
 
- public static void main(String multiCompatibility[]){
- System.out.println("main Started");
- audio();
- System.out.println("main ended");
- }
-
- public static void audio(){
+ public static void main (String multiCompatibility[]){
  System.out.println(">>>>>>Before re-initialization<<<<<<");
  System.out.println("The Speaker Brand is : "+brand);
  System.out.println("The Speaker Colour is : "+colour);
@@ -25,8 +19,8 @@ class SpeakerInOwnMethod{
  brand="phillipes";
  colour="pink";
  mountingType="Walled";
- distanceCovering=50L;
  connectivityTechnology="Bluetooth";
+ distanceCovering=50L;
  audioOutputResult=3;
  price = 56342L;
  System.out.println(">>>>>>After re-initialization<<<<<<");

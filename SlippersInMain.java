@@ -1,4 +1,4 @@
-class SlippersInOwnMethod{
+class SlippersInMain{
 	static String closureType = "Slip On";
 	static String heelType="Flat";
 	static String resistanceLevel="Water Resistant";
@@ -7,12 +7,6 @@ class SlippersInOwnMethod{
 	static String countryOfOrigin="India";
 
  public static void main(String diabatic[]){
- System.out.println("main Started");
- slip();
- System.out.println("main ended");}
-
-
- public static void slip(){
  	System.out.println(">>>>>>Before re-initialization<<<<<<");
 	System.out.println("the slipper closureType is : "+closureType);
 	System.out.println("the slipper heelType is : "+heelType);

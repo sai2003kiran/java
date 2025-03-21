@@ -1,17 +1,11 @@
-class PizzaInOwnMethod{
+class PizzaInMain{
 	static long id =  12342267;
 	static String name = "ChickenPanner";
     static String size = "Small";
     static String speed = "1hour";
     static String shape = "circle";
 
-  public static void main(String pizzaHut[]){
-  System.out.println("main started");
-  junk();
-  System.out.println("main Ended");
-  }
-
-  public static void junk(){
+ public static void main(String pizzaHut[]){
   System.out.println(">>>>>>>Before Re-intialization<<<<<<<<");
   System.out.println("the Pizza id is : "+id);
   System.out.println("the Pizza Name is : "+name);

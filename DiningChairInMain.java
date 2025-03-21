@@ -1,4 +1,4 @@
-class DiningChairInOwnMethod{
+class DiningChairInMain{
 	static String brand="SONA ART & CRAFTS";
 	static String colour="brown";
 	static String Type="GlassTop";
@@ -7,13 +7,6 @@ class DiningChairInOwnMethod{
 	static long price = 35678L;
 
  public static void main (String solidSheeshamWood[]){
- System.out.println("main Started");
- dc();
- System.out.println("main ended"); 
- }
- 
- 
- public static void dc(){
  System.out.println(">>>>>>Before re-initialization<<<<<<");	
  System.out.println("The DiningChair Brand is : "+brand);
  System.out.println("The DiningChair Colour is : "+colour);
@@ -34,6 +27,5 @@ class DiningChairInOwnMethod{
  System.out.println("The DiningChair Dimension is : "+dimension);
  System.out.println("The DiningChair Size is : "+size);
  System.out.println("The DiningChair price is : "+price);
- 
  }
 }
