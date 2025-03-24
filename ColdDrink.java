@@ -4,12 +4,12 @@ class ColdDrink {
     String drinkFlavor;
 
     // Constructor without arguments
-    public ColdDrink() {
+ColdDrink() {
 		System.out.println("ColdDrink zero constructor is invoked");
     }
 
     // Constructor with arguments
-    public ColdDrink(int size, String packaging, String flavor) {
+ColdDrink(int size, String packaging, String flavor) {
       System.out.println("perfume para constructor is invoked");
 		this.drinkSize = drinkSize;
         this.drinkPackaging = drinkPackaging;
