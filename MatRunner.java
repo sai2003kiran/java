@@ -1,0 +1,56 @@
+class MatRunner{
+public static void main(String output[]){
+ Mat AAZEEM = new Mat();
+ AAZEEM.matMatrix="Diamond tread mat";
+ AAZEEM.stepShield ="Absorbent microfiber layer";
+ AAZEEM.pathPad="Travel mat with straps";
+ System.out.println("the AAZEEM matMatrix is: "+AAZEEM.matMatrix);
+ System.out.println("the AAZEEM stepShield  is: "+AAZEEM.stepShield );
+ System.out.println("the AAZEEM pathPad is: "+AAZEEM.pathPad);
+ System.out.println("*****<><><><><>*****");
+ Mat roseate = new Mat("Pebble pattern mat","Slip-resistant woven mat","Seamless pathway mat");
+ System.out.println("the roseate matMatrix is: "+roseate.matMatrix);
+ System.out.println("the roseate stepShield  is: "+roseate.stepShield );
+ System.out.println("the roseate pathPad is: "+roseate.pathPad);
+ System.out.println("*****<><><><><>*****");
+ Mat tarkan  = new Mat();
+ tarkan.matMatrix="Grass-textured mat";
+ tarkan.stepShield ="Heavy-duty rubber shield";
+ tarkan.pathPad="Reflective strip mat";
+ System.out.println("the tarkan matMatrix is: "+tarkan.matMatrix);
+ System.out.println("the tarkan stepShield  is: "+tarkan.stepShield );
+ System.out.println("the tarkan pathPad is: "+tarkan.pathPad);
+ System.out.println("*****<><><><><>*****");
+ Mat ishroHome = new Mat("Checkerboard foam tiles","Eco-friendly cork mat","Color-coded path mat");
+ System.out.println("the ishroHome matMatrix is: "+ishroHome.matMatrix);
+ System.out.println("the ishroHome stepShield  is: "+ishroHome.stepShield );
+ System.out.println("the ishroHome pathPad is: "+ishroHome.pathPad);
+ System.out.println("*****<><><><><>*****");
+ Mat ElastPro = new Mat();
+ ElastPro.matMatrix="Modular mats";
+ ElastPro.stepShield ="Textured rubber shield";
+ ElastPro.pathPad="Travel-friendly roll-up mat";
+ System.out.println("the ElastPro matMatrix is: "+ElastPro.matMatrix);
+ System.out.println("the ElastPro stepShield  is: "+ElastPro.stepShield );
+ System.out.println("the ElastPro pathPad is: "+ElastPro.pathPad);
+ System.out.println("*****<><><><><>*****");
+ Mat homerz = new Mat("Anti-slip surface","Non-slip safety mat","Runner mat");
+ System.out.println("the homerz matMatrix is: "+homerz.matMatrix);
+ System.out.println("the homerz stepShield  is: "+homerz.stepShield );
+ System.out.println("the homerz pathPad is: "+homerz.pathPad);
+ System.out.println("*****<><><><><>*****");
+ Mat wazdorf = new Mat();
+ wazdorf.matMatrix="Foam tiles";
+ wazdorf.stepShield ="Shock-absorbing foam";
+ wazdorf.pathPad="Glow-in-the-dark mat";
+ System.out.println("the wazdorf matMatrix is: "+wazdorf.matMatrix);
+ System.out.println("the wazdorf stepShield  is: "+wazdorf.stepShield );
+ System.out.println("the wazdorf pathPad is: "+wazdorf.pathPad);
+ System.out.println("*****<><><><><>*****");
+ Mat vocado = new Mat("Rubber grid","Water-resistant mat","Directional arrows");
+ System.out.println("the vocado matMatrix is: "+vocado.matMatrix);
+ System.out.println("the vocado stepShield  is: "+vocado.stepShield );
+ System.out.println("the vocado pathPad is: "+vocado.pathPad);
+ System.out.println("*****<><><><><>*****");
+}
+}

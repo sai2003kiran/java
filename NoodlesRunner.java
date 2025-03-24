@@ -1,0 +1,56 @@
+class NoodlesRunner {
+public static void main(String output[]) {
+Noodles maggi = new Noodles();
+maggi.noodleType = "Instant Noodles";
+maggi.noodleFlavor = "Masala";
+maggi.noodleThickness = 1; 
+System.out.println("The maggi noodleType is: " + maggi.noodleType);
+System.out.println("The maggi noodleFlavor is: " + maggi.noodleFlavor);
+System.out.println("The maggi noodleThickness is: " + maggi.noodleThickness + "mm");
+System.out.println("*****<><><><><>*****");
+Noodles topRamen = new Noodles("Instant Noodles", "Chicken", 2);
+System.out.println("The topRamen noodleType is: " + topRamen.noodleType);
+System.out.println("The topRamen noodleFlavor is: " + topRamen.noodleFlavor);
+System.out.println("The topRamen noodleThickness is: " + topRamen.noodleThickness + "mm");
+System.out.println("*****<><><><><>*****");
+Noodles yippee = new Noodles();
+yippee.noodleType = "Fried Noodles";
+yippee.noodleFlavor = "Tomato";
+yippee.noodleThickness = 1;
+System.out.println("The yippee noodleType is: " + yippee.noodleType);
+System.out.println("The yippee noodleFlavor is: " + yippee.noodleFlavor);
+System.out.println("The yippee noodleThickness is: " + yippee.noodleThickness + "mm");
+System.out.println("*****<><><><><>*****");
+Noodles chowMein = new Noodles("Stir-fried Noodles", "Soy Sauce", 3);
+System.out.println("The chowMein noodleType is: " + chowMein.noodleType);
+System.out.println("The chowMein noodleFlavor is: " + chowMein.noodleFlavor);
+System.out.println("The chowMein noodleThickness is: " + chowMein.noodleThickness + "mm");
+System.out.println("*****<><><><><>*****");
+Noodles hakkaNoodles = new Noodles();
+hakkaNoodles.noodleType = "Boiled Noodles";
+hakkaNoodles.noodleFlavor = "Garlic Butter";
+hakkaNoodles.noodleThickness = 2;
+System.out.println("The hakkaNoodles noodleType is: " + hakkaNoodles.noodleType);
+System.out.println("The hakkaNoodles noodleFlavor is: " + hakkaNoodles.noodleFlavor);
+System.out.println("The hakkaNoodles noodleThickness is: " + hakkaNoodles.noodleThickness + "mm");
+System.out.println("*****<><><><><>*****");
+Noodles ramen = new Noodles("Soup Noodles", "Spicy Miso", 4);
+System.out.println("The ramen noodleType is: " + ramen.noodleType);
+System.out.println("The ramen noodleFlavor is: " + ramen.noodleFlavor);
+System.out.println("The ramen noodleThickness is: " + ramen.noodleThickness + "mm");
+System.out.println("*****<><><><><>*****");
+Noodles udon = new Noodles();
+udon.noodleType = "Thick Noodles";
+udon.noodleFlavor = "Teriyaki";
+udon.noodleThickness = 5;
+System.out.println("The udon noodleType is: " + udon.noodleType);
+System.out.println("The udon noodleFlavor is: " + udon.noodleFlavor);
+System.out.println("The udon noodleThickness is: " + udon.noodleThickness + "mm");
+System.out.println("*****<><><><><>*****");
+Noodles soba = new Noodles("Buckwheat Noodles", "Sesame", 2);
+System.out.println("The soba noodleType is: " + soba.noodleType);
+System.out.println("The soba noodleFlavor is: " + soba.noodleFlavor);
+System.out.println("The soba noodleThickness is: " + soba.noodleThickness + "mm");
+System.out.println("*****<><><><><>*****");
+    }
+}
