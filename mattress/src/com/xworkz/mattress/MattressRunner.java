@@ -1,0 +1,131 @@
+package com.xworkz.mattress;
+import com.xworkz.mattress.mattres.Mattress;
+public class MattressRunner {
+    public static void main(String[] args) {
+        System.out.println("Main Started");
+
+        Mattress mattress1 = new Mattress();
+        mattress1.setMattressThickness(10);
+        mattress1.setMattressMaterial("Memory Foam");
+        mattress1.setFoldable(false);
+        mattress1.setMaxWeightCapacity(250);
+        mattress1.setMattressUsageType("Residential");
+        mattress1.setMattressColor("White");
+        mattress1.setPrice(323.24);
+
+        int mattress1Thickness = mattress1.getMattressThickness();
+        String mattress1Material = mattress1.getMattressMaterial();
+        boolean mattress1Foldable = mattress1.getFoldable();
+        int mattress1MaxWeightCapacity = mattress1.getMaxWeightCapacity();
+        String mattress1UsageType = mattress1.getMattressUsageType();
+        String mattress1Color = mattress1.getMattressColor();
+        double price1 = mattress1.getPrice();
+        System.out.println("Mattress Thickness: " + mattress1Thickness);
+        System.out.println("Mattress Material: " + mattress1Material);
+        System.out.println("Is Foldable: " + mattress1Foldable);
+        System.out.println("Max Weight Capacity: " + mattress1MaxWeightCapacity);
+        System.out.println("Mattress Usage Type: " + mattress1UsageType);
+        System.out.println("Mattress Color: " + mattress1Color);
+        System.out.println("Mattress price: "+price1);
+        System.out.println("*******Complete*********");
+
+        Mattress mattress2 = new Mattress();
+        mattress2.setMattressThickness(12);
+        mattress2.setMattressMaterial("Latex");
+        mattress2.setFoldable(true);
+        mattress2.setMaxWeightCapacity(300);
+        mattress2.setMattressUsageType("Commercial");
+        mattress2.setMattressColor("Blue");
+        mattress2.setPrice(456.24);
+        int mattress2Thickness = mattress2.getMattressThickness();
+        String mattress2Material = mattress2.getMattressMaterial();
+        boolean mattress2Foldable = mattress2.getFoldable();
+        int mattress2MaxWeightCapacity = mattress2.getMaxWeightCapacity();
+        String mattress2UsageType = mattress2.getMattressUsageType();
+        String mattress2Color = mattress2.getMattressColor();
+        double price2 = mattress2.getPrice();
+        System.out.println("Mattress Thickness: " + mattress2Thickness);
+        System.out.println("Mattress Material: " + mattress2Material);
+        System.out.println("Is Foldable: " + mattress2Foldable);
+        System.out.println("Max Weight Capacity: " + mattress2MaxWeightCapacity);
+        System.out.println("Mattress Usage Type: " + mattress2UsageType);
+        System.out.println("Mattress Color: " + mattress2Color);
+        System.out.println("Mattress price: "+price2);
+        System.out.println("*******Complete*********");
+
+        Mattress mattress3 = new Mattress();
+        mattress3.setMattressThickness(8);
+        mattress3.setMattressMaterial("Cotton");
+        mattress3.setFoldable(false);
+        mattress3.setMaxWeightCapacity(200);
+        mattress3.setMattressUsageType("Guest Room");
+        mattress3.setMattressColor("Pink");
+        mattress3.setPrice(987.24);
+        int mattress3Thickness = mattress3.getMattressThickness();
+        String mattress3Material = mattress3.getMattressMaterial();
+        boolean mattress3Foldable = mattress3.getFoldable();
+        int mattress3MaxWeightCapacity = mattress3.getMaxWeightCapacity();
+        String mattress3UsageType = mattress3.getMattressUsageType();
+        String mattress3Color = mattress3.getMattressColor();
+        double price3 = mattress3.getPrice();
+        System.out.println("Mattress Thickness: " + mattress3Thickness);
+        System.out.println("Mattress Material: " + mattress3Material);
+        System.out.println("Is Foldable: " + mattress3Foldable);
+        System.out.println("Max Weight Capacity: " + mattress3MaxWeightCapacity);
+        System.out.println("Mattress Usage Type: " + mattress3UsageType);
+        System.out.println("Mattress Color: " + mattress3Color);
+        System.out.println("Mattress price: "+price3);
+        System.out.println("*******Complete*********");
+
+        Mattress mattress4 = new Mattress();
+        mattress4.setMattressThickness(15);
+        mattress4.setMattressMaterial("Hybrid");
+        mattress4.setFoldable(true);
+        mattress4.setMaxWeightCapacity(350);
+        mattress4.setMattressUsageType("Luxury");
+        mattress4.setMattressColor("Gold");
+        mattress4.setPrice(678.24);
+        int mattress4Thickness = mattress4.getMattressThickness();
+        String mattress4Material = mattress4.getMattressMaterial();
+        boolean mattress4Foldable = mattress4.getFoldable();
+        int mattress4MaxWeightCapacity = mattress4.getMaxWeightCapacity();
+        String mattress4UsageType = mattress4.getMattressUsageType();
+        String mattress4Color = mattress4.getMattressColor();
+        double price4 = mattress4.getPrice();
+        System.out.println("Mattress Thickness: " + mattress4Thickness);
+        System.out.println("Mattress Material: " + mattress4Material);
+        System.out.println("Is Foldable: " + mattress4Foldable);
+        System.out.println("Max Weight Capacity: " + mattress4MaxWeightCapacity);
+        System.out.println("Mattress Usage Type: " + mattress4UsageType);
+        System.out.println("Mattress Color: " + mattress4Color);
+        System.out.println("Mattress price: "+price4);
+        System.out.println("*******Complete*********");
+
+        Mattress mattress5 = new Mattress();
+        mattress5.setMattressThickness(18);
+        mattress5.setMattressMaterial("Gel Foam");
+        mattress5.setFoldable(false);
+        mattress5.setMaxWeightCapacity(400);
+        mattress5.setMattressUsageType("Hospital");
+        mattress5.setMattressColor("Green");
+        mattress5.setPrice(798.24);
+        int mattress5Thickness = mattress5.getMattressThickness();
+        String mattress5Material = mattress5.getMattressMaterial();
+        boolean mattress5Foldable = mattress5.getFoldable();
+        int mattress5MaxWeightCapacity = mattress5.getMaxWeightCapacity();
+        String mattress5UsageType = mattress5.getMattressUsageType();
+        String mattress5Color = mattress5.getMattressColor();
+        double price5 = mattress5.getPrice();
+        System.out.println("Mattress Thickness: " + mattress5Thickness);
+        System.out.println("Mattress Material: " + mattress5Material);
+        System.out.println("Is Foldable: " + mattress5Foldable);
+        System.out.println("Max Weight Capacity: " + mattress5MaxWeightCapacity);
+        System.out.println("Mattress Usage Type: " + mattress5UsageType);
+        System.out.println("Mattress Color: " + mattress5Color);
+        System.out.println("Mattress price: "+price5);
+        System.out.println("*******Complete*********");
+
+        System.out.println("Main Ended");
+
+    }
+}

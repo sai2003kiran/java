@@ -1,0 +1,114 @@
+package com.xworkz.ladder;
+import com.xworkz.ladder.ladders.Ladder;
+
+public class LadderRunner {
+    public static void main(String[] args) {
+        System.out.println("Main Started");
+        Ladder ladder1 = new Ladder();
+        ladder1.setLadderHeight(12);
+        ladder1.setLadderMaterial("Aluminum");
+        ladder1.setFoldable(true);
+        ladder1.setMaxWeightCapacity(150);
+        ladder1.setLadderUsageType("Industrial");
+        ladder1.setLadderColor("Silver");
+        int ladder1Height = ladder1.getLadderHeight();
+        System.out.println("Ladder Height: " + ladder1Height);
+        String ladder1Material = ladder1.getLadderMaterial();
+        System.out.println("Ladder Material: " + ladder1Material);
+        boolean ladder1Foldable = ladder1.getFoldable();
+        System.out.println("Is Foldable: " + ladder1Foldable);
+        int ladder1MaxWeight = ladder1.getMaxWeightCapacity();
+        System.out.println("Max Weight Capacity: " + ladder1MaxWeight);
+        String ladder1Usage = ladder1.getLadderUsageType();
+        System.out.println("Ladder Usage Type: " + ladder1Usage);
+        String ladder1Color = ladder1.getLadderColor();
+        System.out.println("Ladder Color: " + ladder1Color);
+        System.out.println("*******Complete*********");
+
+        Ladder ladder2 = new Ladder();
+        ladder2.setLadderHeight(15);
+        ladder2.setLadderMaterial("Steel");
+        ladder2.setFoldable(false);
+        ladder2.setMaxWeightCapacity(200);
+        ladder2.setLadderUsageType("Residential");
+        ladder2.setLadderColor("Blue");
+        int ladder2Height = ladder2.getLadderHeight();
+        System.out.println("Ladder Height: " + ladder2Height);
+        String ladder2Material = ladder2.getLadderMaterial();
+        System.out.println("Ladder Material: " + ladder2Material);
+        boolean ladder2Foldable = ladder2.getFoldable();
+        System.out.println("Is Foldable: " + ladder2Foldable);
+        int ladder2MaxWeight = ladder2.getMaxWeightCapacity();
+        System.out.println("Max Weight Capacity: " + ladder2MaxWeight);
+        String ladder2Usage = ladder2.getLadderUsageType();
+        System.out.println("Ladder Usage Type: " + ladder2Usage);
+        String ladder2Color = ladder2.getLadderColor();
+        System.out.println("Ladder Color: " + ladder2Color);
+        System.out.println("*******Complete*********");
+
+        Ladder ladder3 = new Ladder();
+        ladder3.setLadderHeight(10);
+        ladder3.setLadderMaterial("Fiberglass");
+        ladder3.setFoldable(true);
+        ladder3.setMaxWeightCapacity(100);
+        ladder3.setLadderUsageType("Agricultural");
+        ladder3.setLadderColor("Green");
+        int ladder3Height = ladder3.getLadderHeight();
+        System.out.println("Ladder Height: " + ladder3Height);
+        String ladder3Material = ladder3.getLadderMaterial();
+        System.out.println("Ladder Material: " + ladder3Material);
+        boolean ladder3Foldable = ladder3.getFoldable();
+        System.out.println("Is Foldable: " + ladder3Foldable);
+        int ladder3MaxWeight = ladder3.getMaxWeightCapacity();
+        System.out.println("Max Weight Capacity: " + ladder3MaxWeight);
+        String ladder3Usage = ladder3.getLadderUsageType();
+        System.out.println("Ladder Usage Type: " + ladder3Usage);
+        String ladder3Color = ladder3.getLadderColor();
+        System.out.println("Ladder Color: " + ladder3Color);
+        System.out.println("*******Complete*********");
+
+        Ladder ladder4 = new Ladder();
+        ladder4.setLadderHeight(18);
+        ladder4.setLadderMaterial("Wood");
+        ladder4.setFoldable(false);
+        ladder4.setMaxWeightCapacity(250);
+        ladder4.setLadderUsageType("Commercial");
+        ladder4.setLadderColor("Brown");
+        int ladder4Height = ladder4.getLadderHeight();
+        System.out.println("Ladder Height: " + ladder4Height);
+        String ladder4Material = ladder4.getLadderMaterial();
+        System.out.println("Ladder Material: " + ladder4Material);
+        boolean ladder4Foldable = ladder4.getFoldable();
+        System.out.println("Is Foldable: " + ladder4Foldable);
+        int ladder4MaxWeight = ladder4.getMaxWeightCapacity();
+        System.out.println("Max Weight Capacity: " + ladder4MaxWeight);
+        String ladder4Usage = ladder4.getLadderUsageType();
+        System.out.println("Ladder Usage Type: " + ladder4Usage);
+        String ladder4Color = ladder4.getLadderColor();
+        System.out.println("Ladder Color: " + ladder4Color);
+        System.out.println("*******Complete*********");
+
+        Ladder ladder5 = new Ladder();
+        ladder5.setLadderHeight(20);
+        ladder5.setLadderMaterial("Plastic");
+        ladder5.setFoldable(true);
+        ladder5.setMaxWeightCapacity(120);
+        ladder5.setLadderUsageType("Industrial");
+        ladder5.setLadderColor("White");
+        int ladder5Height = ladder5.getLadderHeight();
+        System.out.println("Ladder Height: " + ladder5Height);
+        String ladder5Material = ladder5.getLadderMaterial();
+        System.out.println("Ladder Material: " + ladder5Material);
+        boolean ladder5Foldable = ladder5.getFoldable();
+        System.out.println("Is Foldable: " + ladder5Foldable);
+        int ladder5MaxWeight = ladder5.getMaxWeightCapacity();
+        System.out.println("Max Weight Capacity: " + ladder5MaxWeight);
+        String ladder5Usage = ladder5.getLadderUsageType();
+        System.out.println("Ladder Usage Type: " + ladder5Usage);
+        String ladder5Color = ladder5.getLadderColor();
+        System.out.println("Ladder Color: " + ladder5Color);
+        System.out.println("*******Complete*********");
+
+        System.out.println("Main Ended");
+    }
+}
