@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>jdbc-connection</artifactId>
+  <artifactId>bankAccount-jdbc</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>jdbc-connection</name>
+  <name>bankAccount-jdbc</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -20,6 +20,11 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.30</version>
     </dependency>
     <dependency>
       <groupId>com.mysql</groupId>
